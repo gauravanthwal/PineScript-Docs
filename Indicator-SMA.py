@@ -1,4 +1,6 @@
 //@version=5
+
+// Creating Simple Moving Average
 indicator(title = 'MA', overlay = true)
 
 sma20 = ta.sma(close, 20)
